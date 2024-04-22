@@ -26,7 +26,7 @@ const AddTodo = () => {
             <div>
                 <h1 className='text-3xl'>Todos</h1>
                 <ol>
-                    {todos.map((todo) => (
+                    {todos?.map((todo) => (
                         <li className='flex justify-between' key={todo.id}>
                             <div>
                                 {todo.text}
